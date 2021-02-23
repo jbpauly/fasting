@@ -46,3 +46,4 @@ nav:
     - Report Issues: https://github.com/jbpauly/fasting/issues
     - API Reference:
           - fasting module: fasting.md
+          - quantify module: quantify.md
