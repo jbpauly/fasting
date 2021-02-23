@@ -22,24 +22,23 @@ requirements = ['Click>=7.0', ]
 
 setup_requirements = ['pytest-runner', ]
 
-test_requirements = ['pytest>=3', ]
+test_requirements = ['pytest>=6', ]
 
 setup(
     author="Joe Pauly",
     author_email='joseph.b.pauly@gmail.com',
-    python_requires='>=3.5',
+    python_requires='>=3.6',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
-    description="PA Python package to  interact with fasting logs from apps like Zero.",
+    description="A Python package to  interact with fasting logs from apps like Zero.",
     entry_points={
         'console_scripts': [
             'fasting=fasting.cli:main',
