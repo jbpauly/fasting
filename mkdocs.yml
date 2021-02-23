@@ -24,7 +24,7 @@ plugins:
     - mkdocs-jupyter:
           include_source: True
           # execute: True
-          
+
 markdown_extensions:
     - attr_list
     - pymdownx.superfences
@@ -38,7 +38,7 @@ markdown_extensions:
 #     - auto
 
 nav:
-    - Home: index.md
+    - Home: ./README.md # index.md
     - Installation: installation.md
     - Usage: usage.md
     - Contributing: contributing.md
