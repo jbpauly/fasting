@@ -36,7 +36,8 @@ This package is part of the [**Digital Biomarker Discovery Pipeline (DBDP)**](ht
 
 You can read more about the DBDP [here](https://medium.com/digital-biomarker-discovery/digital-biomarker-discovery-pipeline-fbfe75cdd9a4).
 If you track your fasts, there's a chance you also track biomarkers with wearables and other hardware in the modern health stack.
-The goal of this package is to enable you to utlize _**your**_ data for your own purpose, like cross analyzing fasting performance with other biomarkers.
+The goal of this package is to enable you to utilize _**your**_ data for your own purpose, like cross analyzing
+ fasting performance with other biomarkers.
 
 ### Original Use Case
 Functionality around fasting logs was originally built for the

@@ -21,6 +21,7 @@ parts/
 sdist/
 var/
 .virtual_documents/
+virtual_documents/
 wheels/
 *.egg-info/
 .installed.cfg
@@ -107,3 +108,4 @@ ENV/
 
 # IDE settings
 .vscode/
+/.virtual_documents/

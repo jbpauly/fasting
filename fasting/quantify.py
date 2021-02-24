@@ -200,8 +200,8 @@ def consecutive_minutes(fasts: pd.Series) -> pd.Series:
                     - No (i.e. not fasting) as 0.
     Returns: A time series of a consecutive minutes fasted.
 
-    Reference: Credit to George Pipis for inspiration of the solution.
-               - Link:https://predictivehacks.com/count-the-consecutive-events-in-python/
+    Notes: Credit to George Pipis for inspiration of the solution.
+           You can find George's solution [here](https://predictivehacks.com/count-the-consecutive-events-in-python/)
 
     """
 
