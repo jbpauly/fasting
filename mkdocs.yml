@@ -38,7 +38,7 @@ markdown_extensions:
 #     - auto
 
 nav:
-    - Home: ./README.md # index.md
+    - Home: index.md
     - Installation: installation.md
     - Usage: usage.md
     - Contributing: contributing.md
