@@ -6,12 +6,12 @@
 [![image](https://pyup.io/repos/github/jbpauly/fasting/shield.svg)](https://pyup.io/repos/github/jbpauly/fasting)
 
 
-**PA Python package to  interact with fasting logs from apps like Zero.**
+**A Python package to  interact with fasting logs from apps like Zero.**
 
 
 -   Free software: MIT license
 -   Documentation: <https://jbpauly.github.io/fasting>
-    
+
 
 ## Features
 

@@ -40,10 +40,10 @@ markdown_extensions:
 nav:
     - Home: index.md
     - Installation: installation.md
-    - Usage: usage.md
-    - Contributing: contributing.md
-    - FAQ: faq.md
-    - Report Issues: https://github.com/jbpauly/fasting/issues
     - API Reference:
-          - fasting module: fasting.md
           - quantify module: quantify.md
+    - Tutorials:
+          - Getting Started: tutorials/tutorial_getting_started.ipynb
+    - Contributing: contributing.md
+    - Report Issues: https://github.com/jbpauly/fasting/issues
+
