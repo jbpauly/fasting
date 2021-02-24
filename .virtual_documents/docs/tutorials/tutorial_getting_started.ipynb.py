@@ -1,4 +1,4 @@
-from fasting import quantify
+from ..fasting import quantify
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FormatStrFormatter
