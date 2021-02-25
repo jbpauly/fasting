@@ -190,6 +190,9 @@ def consecutive_minutes(fasts: pd.Series) -> pd.Series:
     Create a time series of consecutive minutes (cumulative summation of each fast) fasted from
     a time series of fasting status.
 
+    Credit to George Pipis for inspiration of the solution.
+    You can find George's solution [here](https://predictivehacks.com/count-the-consecutive-events-in-python/)
+
     Example:
         Input =  [0,1,1,1,0,1,1]
         Output = [0,1,2,3,0,1,2]
@@ -199,10 +202,6 @@ def consecutive_minutes(fasts: pd.Series) -> pd.Series:
                     - Yes (ie. fasting) as 1.
                     - No (i.e. not fasting) as 0.
     Returns: A time series of a consecutive minutes fasted.
-
-    Notes: Credit to George Pipis for inspiration of the solution.
-           You can find George's solution [here](https://predictivehacks.com/count-the-consecutive-events-in-python/)
-
     """
 
     if not validate_continuous_fasts(fasts):

@@ -89,6 +89,7 @@ discrete_logs = fasting.quantify.zero_fasts(zero_export.csv)
 ```
 continuous_log = fasting.quantify.continuous_fasts(discrete_logs)
 ```
+
 | datetime            | fasting status |
 |---------------------|----------------|
 | 2021-01-14 19:00:00 | 1              |
