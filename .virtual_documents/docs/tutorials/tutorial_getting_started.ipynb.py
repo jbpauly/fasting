@@ -1,12 +1,10 @@
-from ..fasting import quantify
+from fasting import quantify
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FormatStrFormatter
 
 
-export = "/Users/joepauly/Desktop/zero_export.csv"
-
-# TODO UPDATE TO DATA REPO: https://github.com/DigitalBiomarkerDiscoveryPipeline/Digital_Health_Data_Repository/tree/main/Dataset_STEP
+export = "https://raw.githubusercontent.com/jbpauly/fasting/main/docs/tutorials/zero_export.csv"
 
 
 zero_export = pd.read_csv(export)
